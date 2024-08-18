@@ -1,17 +1,9 @@
-/*
-    Assginment operators
-*/
+/* challange */
 
 let a = 10;
+let b = "20"
+let c = 80;
 
-a = a +20;
-
-a = a + 70;
-
-a += 100; // a = a + 100
-
-a = 50; // a - a  50
-
-a /= 50; // a - a / 50
-
-console.log(a)
+console.log(++a + + b ++ + +c++ - +a++)
+console.log(++a + + b ++ + +c++ - +a++ +a )
+console.log(++a + + b ++ + +c++ - +a++ - +true)
