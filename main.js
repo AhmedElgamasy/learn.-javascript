@@ -15,3 +15,7 @@ console.log(thename.length);
 console.log(thename.trim());
 
 console.log(thename.toUpperCase())
+
+console.log(10 < 20 );
+console.log(10 > 30 );
+console.log(10 < 5 );
