@@ -1,8 +1,17 @@
-/* challange */
 
-let a = 1_00;
-let b = 2_00.5
-let c = 1e2;
-let d = 2.4;
 
-console.log(Math.round(Math.ceil()))
+let thename = " Ahmed  ";
+let theList =  [1, 2, 3, 4, 5];
+
+console.log(thename);
+console.log(thename[1]);
+console.log(thename[5]);
+
+console.log(thename.charAt(1));
+console.log(thename.charAt(5));
+
+console.log(thename.length);
+
+console.log(thename.trim());
+
+console.log(thename.toUpperCase())
