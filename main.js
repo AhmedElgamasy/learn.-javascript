@@ -134,19 +134,88 @@ console.log(my);
 // console.log("models: ");
 // for (let k = 0; k < models.length; k++) {
 //     console.log(` - ${models[k]}`);
-
-
-// }
-
+//
+//
+//// }
+//
 // let myAdmins = ["ahmed", "Osama", "Sayad", "Stop", "Samera"];
 // let myElmployees = ["Amgad", "samah", "Ameer", "Omar", "Othman", "Amany", "Samia"];
-
+//
 // document.write(`<div>We Have X Admins</div>`);
-
-function sayMessage(FName, Iname) {
-    let massage = "hallo" ;
-}
-function concatmsg () {
-    massage = `${mesage} -*`
-
-}
+//
+//function sayMessage(FName, Iname) {
+//    let massage = "hallo" ;
+//}
+//function concatmsg () {
+//    massage = `${mesage} ${locked} `  
+//
+//}
+//
+//function print() {
+//    return 10;
+//}
+//let print =  function (){
+//    return 90;
+//}
+//let names = function () {
+//
+//  return "???";
+//}
+//
+//console.log(names("osama", "mohamed"));
+//
+//let myNums = [1, 2, 3, 4, 5 ,6];
+//
+//let newArray = []
+//for (let i = 0; i < myNums.length; i++) {
+//  newArray.push(myNums[i] + myNums[i]);
+//}
+//console.log(newArray)
+//
+//let addSelf = myNums.map(function(el, index, arr) {
+//
+//},10)
+//
+//showDetails("Osama", 38, true);
+//
+//let print = () => 10;
+//
+//console.log(print());
+//
+//let print = (num) => num;
+//
+//console.log(print(100));
+//
+//
+//var a = 1;
+//let b = 2;
+//
+//function showtext() {
+//    var a = 10;
+//    let b = 20;
+//}
+//console.
+//var x = 10;
+//if (10 === 10) {
+//    let x = 50;
+//} 
+//
+//console.log(x);
+//let swappingCases = "mODY";
+//let invertNumbers = [1, -2 , -300 ,15 ,37 , -34];
+//let ignoreBooleans = "ELzero123moo";
+//
+//let sw = swappingCases
+//.split("")
+//.map(function (ele) {
+//return ele === ele.toUpperCase() ? ele.toLocaleLowerCase() : ele.toLocaleLowerCase();
+//})
+//.join("")
+//
+//console.log(sw)
+//
+//let inv = invertNumbers.map(function (ele) {
+//  return - ele;
+//})
+//
+//let theBiggest = ["bla", "Propaganda", "Other", "AAA", "Battery"]
