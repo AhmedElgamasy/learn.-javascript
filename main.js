@@ -1,65 +1,63 @@
-/*
-console.log(10== "10");
-console.log(-100 == "-100");
-console.log(10 != "10");
-
-console.log(10 === "10");
-console.log(10 !== "10");
-console.log(10 !== 10);
-console.log(10 > 20);
-console.log(10 > 10);
-console.log(10 >= 10);
-console.log(10 <= 10);
-*/
-/*
-console.log(true);
-console.log(!true);
-
-console.log((10 == "10"));
-
-console.log(10 == "10" && 10 > 8 && 10 > 50);
-
-console.log(10 == "10" || 10 > 8 || 10 > 50);
-*/
-
-/*
-let price = 100; 
-let discount = true;
-let discountAmount = 30;
-
-console.log(price);    
-
-if (discount === true) {
-  price -= discountAmount;
-  
-  price = price -  discountAmount;
-
-console.log(price);
-*/
-
-/*
-let price = 100;
-let discount = false;
-let discountAmount = 30;
-let country = "Egypt";
-let student = true;
-
-if (discount === true ) {
-
-    price -= discountAmount;
-
-} else if (country === "Egypt") {
-    price -= discountAmount + 10 ;
-
-
-
-} else{
-
-    price -= 10;
-}
-
-console.log(price) 
-*/
+//
+//console.log(10== "10");
+//console.log(-100 == "-100");
+//console.log(10 != "10");
+//
+//console.log(10 === "10");
+//console.log(10 !== "10");
+//console.log(10 !== 10);
+//console.log(10 > 20);
+//console.log(10 > 10);
+//console.log(10 >= 10);
+//console.log(10 <= 10);
+//
+//
+//console.log(true);
+//console.log(!true);
+//
+//console.log((10 == "10"));
+//
+//console.log(10 == "10" && 10 > 8 && 10 > 50);
+//
+//console.log(10 == "10" || 10 > 8 || 10 > 50);
+//
+//
+//let price = 100; 
+//let discount = true;
+//let discountAmount = 30;
+//
+//console.log(price);    
+//
+//if (discount === true) {
+//  price -= discountAmount;
+//  
+//  price = price -  discountAmount;
+//
+//console.log(price);
+//
+//
+//let price = 100;
+//let discount = false;
+//let discountAmount = 30;
+//let country = "Egypt";
+//let student = true;
+//
+//if (discount === true ) {
+//
+//    price -= discountAmount;
+//
+//} else if (country === "Egypt") {
+//    price -= discountAmount + 10 ;
+//
+//
+//
+//} else{
+//
+//    price -= 10;
+//}
+//
+//console.log(price) 
+//
 
 
 // let theName = "Ahmed";
@@ -219,3 +217,16 @@ console.log(my);
 //})
 //
 //let theBiggest = ["bla", "Propaganda", "Other", "AAA", "Battery"]
+//let mymainelement = document.createElement("div");
+//let mymainelement = document.createElement("h2");
+//let mymainelement = document.createElement("p");
+let myP = document.querySelector("p");
+
+myP.onclick = function () {
+    console.log("Massage From OnClick");
+}
+
+function one() {
+
+    console.log("Massage from OnClick 1");
+}
