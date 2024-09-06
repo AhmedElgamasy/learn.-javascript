@@ -251,45 +251,99 @@
 //    });
 //
 //});
-let book = "Video";
-let Video = "Book";
+//let book = "Video";
+//let Video = "Book";
+//
+//let stash = book;
+//
+//book = Video; 
+//
+//console.log(book);
+//
+//Video = book;
+//
+//console.log =(Video); 
+//
+//Video = stash; 
+//
+//[book,video] = [Video,book]
+//
+//console.log(Video);
+//
+//
+//const user = {
+//    theName: "Mody",
+//    theAge:  14,
+//    theTitle: "Developer", 
+//    thecountry: "Egypt",
+//}
+//console.log(user.theName);
+//console.log(user.theAge);
+//console.log(user.theTitle);
+//console.log(user.thecountry);
+//
+//
+//const User = {   theName: "Mody",   theAge:  14,   theTitle: "Developer",    thecountry: "Egypt",   thecolor: "black",
+//}
+//
+//const { theName: n, theAge: a, thecountry, thecolor: co = "red" } = user; 
+//console.log(n);
+//console.log(a);
+//console.log(user.thecountry);
+//console.log(co);
+//let myObject = 'h';
+//let myEmptyObject = Object.create(null);
+//let myMap = new Map();
+//
+//console.log(myObject); 
+//console.log(myEmptyObject);
+//console.log(myMap); 
+//
+//let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+//
+//let numbers = 10;
+//
+//let check = nums.some(function (e) {
+//    return e > this; 
+//}, myNumber) (e);
+//
+//let serials = "S1005 53000S S50000S S950000S";
+//
+//console.log(serials.match(/s\d{3}s/ig));
+//console.log(serials.match(/s\d{4,5}s/ig));
+//console.log(serials.match(/s\d{4,}s/ig));
+//
+//let txt = "We Love Programming And @ Because @ Is Amazing"; 
+//
+//console.log(txt.replace("@", "JavaScript")); 
+//console.log(txt.replaceAll("@", "JavaScript"));
+//let re = /@/ig;
+//console.log(txt.replaceAll(re, "JavaScript"));
+//console.log(txt.replaceAll(/@/ig, "JavaScript"));
 
-let stash = book;
-
-book = Video; 
-
-Video = stash; 
-
-[book,video] = [Video,book]
-
-console.log(book);
-console.log(Video);
-
-
-const user = {
-    theName: "Mody",
-    theAge:  14,
-    theTitle: "Developer", 
-    thecountry: "Egypt",
+class User {
+   constructor(id ,username, salary) {
+      this.i = id;
+      this.u = username
+      this.s = salary;
+   }
 }
 
-console.log(user.theName);
-console.log(user.theAge);
-console.log(user.theTitle);
-console.log(user.thecountry);
+let userOne = new User(100, "Elzero", 5000);
+let userTwo = new User(101, "Ahmed", 5000);
 
+console.log(userOne.u);
+console.log(userTwo.u);
+console.log(userOne.count);
+console.log(User.count);
+const myObject = {
+   a: 1,
+   b: 2,
+};
 
-const User = {
-    theName: "Mody",
-    theAge:  14,
-    theTitle: "Developer", 
-    thecountry: "Egypt",
-    thecolor: "black",
-}
-
-const { theName: n, theAge: a, thecountry, thecolor: co = "red" } = user; 
-
-console.log(n);
-console.log(a);
-console.log(user.thecountry);
-console.log(co);
+Object.defineProperties(myObject, {
+   c: {
+      configurabl: true,
+      value: 3,
+   },
+});
